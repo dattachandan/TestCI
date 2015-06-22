@@ -4,6 +4,7 @@
 package TestCI
 
 import "errors"
+import "fmt"
 
 func IsItTestedOrNot(word string) (bool, error) {
 	fmt.Printf("Hello, world.\n")
