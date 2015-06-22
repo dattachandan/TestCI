@@ -1,4 +1,5 @@
 language: go
+sudo: required
 notificaitons:
   email:
     recipients: work.chandan@gmail.com
