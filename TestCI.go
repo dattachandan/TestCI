@@ -6,6 +6,7 @@ package TestCI
 import "errors"
 
 func IsItTestedOrNot(word string) (bool, error) {
+	fmt.Printf("Hello, world.\n")
 	switch word {
 	case "Tested":
 		return true, nil
